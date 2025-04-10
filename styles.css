@@ -1,0 +1,85 @@
+/* styles.css */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .receipt-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .receipt-header {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .receipt-logo {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .receipt-header h1 {
+    font-size: 1.4em;
+    margin: 0;
+    color: #0b3d91;
+  }
+  
+  .receipt-header p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .receipt-body {
+    font-size: 0.95em;
+  }
+  
+  .receipt-section {
+    margin-bottom: 20px;
+  }
+  
+  .receipt-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #0b3d91;
+  }
+  
+  .receipt-section p {
+    margin: 6px 0;
+    line-height: 1.5;
+  }
+  
+  .amount {
+    font-weight: bold;
+    color: #388e3c;
+    font-size: 1.2em;
+  }
+  
+  .confirmation {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    color: #006064;
+  }
+  
+  .receipt-footer {
+    font-size: 0.85em;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    margin-top: 30px;
+  }
+  
